@@ -1,4 +1,5 @@
 import java.util.*;
+import java.lang.*;
 
 public class Hello{
 	
@@ -9,5 +10,6 @@ public class Hello{
 		System.out.println("Today date is: " + new Date());
 
 		System.out.println("Okrzyk mastera to: " + name);
+		System.out.println("Wylosowano: " + (int)(Math.random() * 100) + 1);
 	}
 }
